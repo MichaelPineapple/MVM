@@ -1,7 +1,2 @@
-### Build Instructions
-```
-mkdir build
-cd build
-/opt/homebrew/bin/cmake .. && make
-./app
-```
+### MclVM
+Highly simplified virtual machine for executing toy machine code.
