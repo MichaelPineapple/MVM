@@ -57,7 +57,7 @@ bool execute_instruction(int op, int x, int y)
             
         case 109:
             // Jmp
-            ptr = x;
+            ptr = mem[x];
             break;
             
         default:
